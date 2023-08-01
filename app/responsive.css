@@ -1,0 +1,158 @@
+@media screen and (max-width: 600px) {
+  header{
+    display: none;
+  }
+  header nav {
+    display: none;
+  }
+  header {
+    flex-direction: row !important;
+    padding: 10px 0px;
+  }
+  header .humber-icon {
+    display: block;
+  }
+  .search-logo {
+    display: none;
+  }
+  .search-items {
+    flex-direction: column;
+  }
+  .search-items li {
+    flex-direction: column;
+    margin: 5px 0px;
+  }
+  .mobile-menu {
+    display: flex !important;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background: #282828;
+    width: 100%;
+    z-index: 50;
+    justify-content: space-between;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+
+  .mobile-menu a {
+    text-align: center;
+    margin: 2px 20px;
+    display: inline-block;
+    color: #f1f1f1;
+  }
+
+  .mobile-menu a i,
+  .mobile-menu a span {
+    display: block;
+    margin: 5px auto;
+  }
+  .mobile-menu a span {
+    font-size: 12px;
+  }
+  .mobile-menu a i {
+    font-size: 14px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    transition: 0.2s all ease-in;
+    transition: 0.2s transform ease-in .2s;
+  }
+  .mobile-menu-visited-link {
+    transform: translateY(-15px);
+    outline: 8px solid #171717;
+    cursor: pointer;
+    color: #f1f1f1;
+    background-color: #e88103;
+    width: 40px !important;
+    height: 40px !important;
+    line-height: 40px !important;
+  }
+  footer {
+    margin-bottom: 30px;
+  }
+
+  .actor-item {
+    margin: 5px auto;
+  }
+  .swiper-slide-title {
+    font-size: 16px;
+  }
+  .season-detail {
+    font-size: 12px !important;
+    padding: 5px;
+    text-align: center;
+  }
+  .single{
+    justify-content: start;
+  }
+  #search{
+    margin-top: 0px !important;
+  }
+  .movie_item_info_detail h4{
+    font-size: 12px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  #season-title {
+    flex-direction: column-reverse;
+  }
+  .season-select {
+    margin: 5px auto !important;
+  }
+ 
+  .swiper-slide-content-left {
+    display: none;
+  }
+  footer {
+    position: static !important;
+  }
+  footer ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer ul li {
+    padding: 10px 0px;
+  }
+  .single_actors,
+  .single_director,
+  .single_category,
+  .single_desc {
+    width: 70% !important;
+  }
+  .end {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #preview_video video {
+    width: 350px;
+  }
+  .list-swiper-slide-item figure img{
+    object-fit: initial;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .search-items {
+    flex-direction: column;
+  }
+  .search-items li {
+    margin: 5px 0px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #preview_video video {
+    width: 100vw;
+    max-width: 100%;
+  }
+  .single_actors,
+  .single_director,
+  .single_category,
+  .single_desc {
+    width: 90% !important;
+  }
+  .single_section {
+    font-size: 12px;
+  }
+}
